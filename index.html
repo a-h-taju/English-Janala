@@ -64,7 +64,7 @@
                 </div>
                 <a class="btn btn-ghost text-xl">
                     <span class="text-lg font-bold">English</span>
-                    <img src="/assets/logo.png" alt="">
+                    <img src="./assets/logo.png" alt="">
                     <span class="font-bangla text-lg font-semibold">জানালা</span></a>
             </div>
             <div class="navbar-end hidden lg:flex">
@@ -99,7 +99,7 @@
                 <button class="btn btn-primary mt-3">Get Started</button>
             </form>
         </div>
-        <img src="/assets/hero-student.png" alt="" class="flex-1">
+        <img src="./assets/hero-student.png" alt="" class="flex-1">
     </section>
 
     <section>
@@ -163,28 +163,33 @@
         </div>
     </section>
 
-    <footer class="p-10 flex justify-between items-center bg-[#badeff42]">
+
+    <footer class="p-10 grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#badeff42] items-center">
         <div class="space-y-4">
-            <a class="flex items-center text-xl">
+            <a class="flex items-center text-xl space-x-1">
                 <span class="text-sm font-bold">English</span>
-                <img src="/assets/logo.png" alt="">
-                <span class="font-bangla text-sm font-semibold">জানালা</span></a>
+                <img src="./assets/logo.png" alt="Logo" class="w-6 h-6">
+                <span class="font-bangla text-sm font-semibold">জানালা</span>
+            </a>
 
             <h3 class="font-bangla text-sm font-semibold">ইংরেজি শিখুন সহজে</h3>
-
-            <p class="text-sm ">Providing ED-Tech Applications since 2025</p>
+            <p class="text-sm">Providing ED-Tech Applications since 2025</p>
         </div>
-        <div class="mt-15 space-y-2">
-            <p>Follow Us</p>
-            <div class="flex space-x-4">
-                <img src="./assets/fb-thumb.png" alt="" class="w-5 h-5">
-                <img src="./assets/youtube-thumb.png" alt="" class="w-5 h-5">
-                <img src="./assets/instagram-thumb.png" alt="" class="w-5 h-5">
-                <img src="./assets/github-thumb.png" alt="" class="w-5 h-5">
+
+        <div class="space-y-2 md:text-right">
+            <p class="font-semibold">Follow Us</p>
+            <div class="flex md:justify-end space-x-4">
+                <img src="./assets/fb-thumb.png" alt="Facebook"
+                    class="w-5 h-5 cursor-pointer hover:scale-110 transition">
+                <img src="./assets/youtube-thumb.png" alt="YouTube"
+                    class="w-5 h-5 cursor-pointer hover:scale-110 transition">
+                <img src="./assets/instagram-thumb.png" alt="Instagram"
+                    class="w-5 h-5 cursor-pointer hover:scale-110 transition">
+                <img src="./assets/github-thumb.png" alt="GitHub"
+                    class="w-5 h-5 cursor-pointer hover:scale-110 transition">
             </div>
         </div>
     </footer>
-
 
 
     <!-- Open the modal using ID.showModal() method -->
